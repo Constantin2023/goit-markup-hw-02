@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap");
+
+:root {
+  --link-color: #212121;
+  --link-active-color: #2196f3;
+  --get-in-touch-color: #757575;
+  --text-font-family: "Roboto", sans-serif;
+  --Logo-font-family: "Raleway", sans-serif;
+  --text-color: #ffffff;
+  --text-alternate-color: #757575;
+  --text-second-section: #212121;
+  --text-our-team-color: #757575;
+  --address-section-color: #ffffff;
+}
+
+body {
+  font-family: var(--text-font-family);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--text-font-family);
+}
+
+h2 {
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.global-header {
+  background: var(--text-color);
+}
+.global-header a {
+  color: var(--link-active-color);
+}
+
+.global-header .primary-navigation a,
+.global-header .primary-navigation a:visited {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(--link-color);
+}
+
+.global-header .primary-navigation a.active {
+  color: var(--link-active-color);
+}
+
+.global-header .get-in-touch {
+  color: var(--get-in-touch-color);
+}
+
+.global-header .get-in-touch a {
+  color: var(--link-active-color);
+}
+
+.main-section {
+  background: #2f303a;
+}
+
+.main-section a {
+  color: var(--link-active-color);
+}
+
+.button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--text-color);
+}
+
+.first-heading-section {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-color);
+}
+
+.second-section {
+  color: var(--get-in-touch-color);
+}
+
+.second-section h2,
+h3 {
+  color: var(--text-second-section);
+}
+
+.our-team-section {
+  background: #f5f4fa;
+}
+
+.our-team-section {
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--text-our-team-color);
+}
+
+.address-section {
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: var(--address-section-color);
+}
+
+.address-section a:hover,
+.address-section a:focus,
+.global-header a:hover,
+.global-header a:focus {
+  color: orangered;
+}
+
+.address-section .link-address {
+  color: var(--text-color);
+}
+.address-section .link-address a,
+.address-section .link-address a.visited {
+  color: rgba(255, 255, 255, 0.6);
+}

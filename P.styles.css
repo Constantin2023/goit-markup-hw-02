@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap");
+
+:root {
+  --text-font-family: #e5e5e5;
+  --logo-color: #2196f3;
+  --link-color: #212121;
+  --phone-color: #757575;
+  --address-section-color: #2f303a;
+  --font-family: "Raleway", sans-serif;
+  --font-family: "Roboto", sans-serif;
+}
+
+.body {
+  background: var(--text-font-familyfont-family);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--link-color);
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: var(--link-color);
+}
+
+.global-header {
+  color: var(--text-font-family);
+}
+.global-header a {
+  color: var(--logo-color);
+}
+
+.global-header .primary-navigation a,
+.global-header .primary-navigation a.visited {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(--link-color);
+}
+.global-header a.active {
+  color: var(--logo-color);
+}
+.get-in-touch .link-address {
+  color: var(--phone-color);
+}
+
+.global-header .button {
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--link-color);
+}
+
+.link-address {
+  color: var(--phone-color);
+}
+
+.button {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--link-color);
+}
+
+.second-section {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: var(--phone-color);
+}
+
+.second-section h3 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: var(--link-color);
+}
+
+.address-section {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  background: var(--address-section-color);
+}
+.address-section a {
+  color: var(--logo-color);
+}
+
+.address .link-address a,
+.address .link-address a.visited {
+  color: white;
+}
+
+.address {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+}
+
+.address-section .address a {
+  color: #ffffff;
+}
+.address-section .address a,
+.address-section .address a.visited {
+  color: #757575;
+}
+
+.address-section a:hover,
+.address-section a:focus,
+.global-header a:hover,
+.global-header a:focus {
+  color: orangered;
+}
